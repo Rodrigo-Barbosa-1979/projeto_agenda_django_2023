@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Dracula Soft",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.tokenColorCustomizations": {
+        "comments": "#ff8800",        
+    },
+    "git.autofetch": true,
+}

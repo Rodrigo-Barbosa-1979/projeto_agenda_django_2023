@@ -1,4 +1,8 @@
 ```
+ Organizar arvore de pastas => explorer, compactFolders 
+```
+
+```
 O atalho padrão para comentar linhas é o CTRL + K CTRL + C
 O atalho padrão para comentar linhas é o Ctrl + /
 ```

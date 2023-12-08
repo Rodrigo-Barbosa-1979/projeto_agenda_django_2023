@@ -9,4 +9,6 @@
         "comments": "#ff8800",        
     },
     "git.autofetch": true,
+    "javascript.preferences.quoteStyle": "double",
+    "typescript.preferences.quoteStyle": "double",
 }

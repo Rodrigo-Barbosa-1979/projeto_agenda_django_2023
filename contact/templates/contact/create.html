@@ -4,7 +4,7 @@
   <div class="form-wrapper">
     <h2>Contact</h2>
     <form 
-      action="{% url "contact:create" %}"
+      action="{{ form_action }}"
       method="POST"
       enctype="multipart/form-data"
     >
@@ -14,7 +14,14 @@
             <div class="form-group">
             <label for="{{ field.id_for_label }}"> {{field.label}} </label>
             {{ field }}
-            {{ fiels.errors }}
+            {{ field.errors }}
+
+            {% if field.help_text %}
+            <p class="help-tex">
+              {{ field.help_text }}
+            </p>
+            {% endif %}
+
             </div>
         {% endfor %}
       </div>      
